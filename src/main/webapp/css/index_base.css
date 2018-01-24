@@ -1,0 +1,43 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align:center;
+    background-color: #dbdbdb;
+}
+#app{
+    line-height: 30px;
+}
+#top{
+    margin-top: 10%;
+}
+#main{
+    margin-top: 20px;
+}
+#main_button{
+    margin-top: 20px;
+}
+#bottom{
+    margin-top: 30px;
+    color: #c3c3c2;
+}
+#logo_text{
+    font-family: "Helvetica";
+    height: 30px;
+    width: 90px;
+    margin:0 auto;
+    background-color: #494948;
+    color: #f6f6f5;
+}
+#titleInfo{
+    font-size: 25px;
+    color: #929291;
+}
+.bg-purple-dark {
+    background: #99a9bf;
+}
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+}

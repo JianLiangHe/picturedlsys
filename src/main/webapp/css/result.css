@@ -1,0 +1,52 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align:center;
+    background-color: #dbdbdb;
+}
+#top{
+    width: 70%;
+    margin:0 auto;
+}
+#main{
+    width: 80%;
+    margin:0 auto;
+}
+
+#main .image-box{
+    margin: 5px;
+    width: 220px;
+    height: 150px;
+    float: left;
+}
+
+.time {
+    font-size: 13px;
+    color: #999;
+}
+.bottom {
+    margin-top: 13px;
+    line-height: 12px;
+}
+
+.button {
+    padding: 0;
+    float: right;
+}
+
+.image {
+    width: 100%;
+    display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both
+}

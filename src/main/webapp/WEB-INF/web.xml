@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         id="WebApp_ID" version="3.1">
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+  <!-- 字符过滤器 -->
+  <filter>
+    <filter-name>CharFilter</filter-name>
+    <filter-class>edu.picturedlsys.filter.CharFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <!--  URL过滤器 -->
+  <filter>
+    <filter-name>URLFilter</filter-name>
+    <filter-class>edu.picturedlsys.filter.URLFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>URLFilter</filter-name>
+    <url-pattern>/WebCrawlControll</url-pattern>
+  </filter-mapping>
+</web-app>

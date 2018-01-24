@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="picturedlsys:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="picturedlsys.war">
+      <element id="artifact" artifact-name="picturedlsys:war exploded" />
+    </root>
+  </artifact>
+</component>
